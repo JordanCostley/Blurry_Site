@@ -1,0 +1,132 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size:100%;
+    vertical-align: baseline;
+    background: transparent;
+    text-align: center;
+    font-family: Montserrat-Regular, sans-serif;
+}
+body {
+    background-color: white;
+}
+#shell {
+    width: 100%;
+    height: 100%;
+}
+/*----Desktop------*/
+@media screen and (min-width: 1000px) {
+/*----Nav Bar------*/
+#navBar {
+    width: 100%;
+    height: 65px;
+    background-color: #21222A;
+}
+#blurryLogo {
+    height: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+#desktopMenu {
+    width: 100%;
+}
+.menuList a {
+    text-decoration: none;
+}
+.menuList li {
+    list-style: none;
+    display: inline;
+    color: white;
+}
+#menuLeft {
+    width: 45%;
+    display: inline;
+    float: left;
+}
+/*----Masthead------*/
+#masthead {
+    width: 100%;
+    height: 100%;
+    background-image: url(images/masthead.jpg);
+    background-position: center top;
+    background-size: 100% auto;
+    background-repeat: no-repeat;   
+}
+#masthead h1 {
+    color: white;
+}
+#masthead h4 {
+    color: white;
+}
+#masthead img {
+    width: 100%;
+}
+/*----New Album------*/
+#albumSection {
+    width: 100%;
+    height: 100%;
+}
+#albumButton {
+    width: 100%;
+}
+#listenNow {
+    width: 150px;
+    height: auto;
+    background-color: #817263;
+    color: white;
+}
+/*----Shows------*/
+#showsSection {
+    width: 100%;
+    height: 100%;
+    background-color: #616F7E;
+    color: white;  
+}
+#showsSection h2 {
+    text-align: center;
+}
+.showItemContainer {
+    width: 70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.showDate {
+    background-color: #817263;
+    width: 75px;
+    height: auto;
+}
+/*----Social------*/
+.socialCell {
+    width: calc(100% / 3);
+    }
+  }
+/*----Mobile------*/
+/*----Masthead------*/
+
+.socialContentContainer {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 1rem;
+  }
+  .socialImge {
+    max-width: 100%;
+  }
+  .socialCell img {
+    display: block;
+  }
+  /*----Tablet------*/
+  @media screen and (min-width:XXXpx) {
+    .socialGrid {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+    }
+    .socailCell {
+      width: 50%;
+    }
+  }
