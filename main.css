@@ -64,6 +64,7 @@
     background: transparent;
     text-align: center;
     font-family: Montserrat-Regular, sans-serif;
+    transition: .5s;
 }
 body {
     background-color: white;
@@ -210,6 +211,12 @@ body {
     position: relative;
     margin-left: -30vw;
     padding-top: 15vh;
+    transition: .5s;
+}
+#albumImage a img:hover {
+    opacity: .75;
+    width: 27%;
+    transition: .5s;
 }
 #albumButtonShell {
     width: 100%;    
@@ -228,7 +235,7 @@ body {
     font-family: Oswald-Regular, sans-serif;
     position: relative;
     float: left;
-    font-size: 1.5vw;
+    font-size: 30px;
     z-index: 10;
 }
 #listenNow:hover {
@@ -256,10 +263,12 @@ body {
 .showVenueTitle {
     font-family: Oswald-Light, sans-serif;
     font-size: 20px;
+    margin-top: -10px;
 }
 .showCityTitle {
     font-family: Oswald-Light, sans-serif;
     font-size: 20px;
+    margin-top: -10px;
 }
 .showItemContainer {
     width: 50%;
@@ -327,10 +336,27 @@ body {
 #socialSection {
     background-color: #AE8862;
 }
+#socialSection h2 {
+    font-family: Oswald-SemiBold, sans-serif;
+    color: white;
+    font-size: 5vw;
+    padding-top: 2vw; 
+}
+#socialSection a {
+    font-family: Oswald-Bold, sans-serif;
+    font-size: 1.45vw;
+    color: white;
+    text-transform: uppercase; 
+    text-decoration: none;
+}
+#socialSection a:hover {
+    color: #21222A;
+}
 #socialContentContainer {
     width: 70%;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 1vw;
 }
 .socialGrid {
     display: flex;
@@ -340,8 +366,16 @@ body {
     justify-content: center;   
 }
 .socialImage {
-    padding: 0 20px 20px;
+    padding: 10px 20px 20px 10px;
     width: calc(100%/4);
+    opacity: .75;
+    transition: .5s;
+}
+.socialImageLink img:hover {
+    opacity: 1;
+    width: calc(100%/3.5);
+    margin-bottom: -20px;
+    transition: .5s;
 }
 /*------Get Updates------*/
 #updatesSections {
@@ -361,7 +395,7 @@ body {
     background-color: #817263;
     color: white;
     font-family: Oswald-Regular, sans-serif;
-    font-size: 1.5vw;
+    font-size: 30px;
 }
 #getupdatesButton:hover {
     cursor: pointer;
