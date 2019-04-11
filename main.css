@@ -285,32 +285,35 @@ body {
    margin-top: -23px; 
 }
 /*------Social------*/
-.socialCell {
-    width: calc(100% / 3);
+.socialImage {
+    width: calc(100%/3);
+    }
+.socailCell {
+        width: 100%;
     }
   }
   /*------Tablet------*/
-  @media screen and (min-width:XXXpx) {
-    .socialGrid {
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: row;
-    }
-    .socailCell {
+  @media screen and (min-width:480px) and (max-width: 1150px) {
+.socailCell {
       width: 50%;
+    }
+.socialImage {
+    width: calc(100%/2);
     }
   }
 /*------Mobile------*/
 /*------Masthead------*/
-
-.socialContentContainer {
+#socialContentContainer {
     margin: 0 auto;
     max-width: 1200px;
-    padding: 0 1rem;
   }
-  .socialImge {
-    max-width: 100%;
+  .socialGrid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
-  .socialCell img {
-    display: block;
+  .socialImage {
+      display: block;
+      float: left;
+      flex: 0 0 auto;      
   }
