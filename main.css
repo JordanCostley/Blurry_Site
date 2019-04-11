@@ -99,9 +99,11 @@ body {
     height: 55%;
     margin-top: 15px;
     fill: white;
+    transition: .05s;
 }
 #blurryLogo:hover {
     fill: #AE8862;
+    transition: .05s;
 }
 #desktopMenu {
     width: 100%;
