@@ -224,7 +224,6 @@ body {
     width: 100%;    
 }
 #albumButton {
-    width: 250px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 1vw;
@@ -434,6 +433,10 @@ body {
 .menuList li {   
     font-size: 1em;
 }
+.liSecond {
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
 #desktopMenu {
     margin-top: -30px;
 }
@@ -455,9 +458,63 @@ body {
     padding-bottom: 30px;
     padding-top: 30px;
 }
+/*------Social Section------*/
 .socialImage {
     width: calc(100%/3);
     padding: 5px 10px 10px 5px;
+}
+}
+@media screen and (max-width: 950px) and (min-width: 880px) {
+#albumImage img {
+    width: 33%;
+}
+.showItemContainer {
+    width: 60%;
+}
+}
+@media screen and (max-width: 880px) {
+/*------Nav Bar------*/
+.liSecond {
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+/*------Album------*/
+#albumSection {
+    height: 65vh;
+}
+#albumHeader {
+    margin-top: 13vh;
+}
+#albumImage img {
+    padding-top: 11vh;
+}
+.showItemContainer {
+    width: 60%;
+}
+/*------Social Section------*/
+#socialSection a {
+    font-size: 2vw;
+}
+#socialContentContainer {
+    width: 90%;
+}
+.socialImage {
+    width: calc(100%/3);
+    padding: 5px 10px 10px 5px;
+}
+}
+@media screen and (max-width: 725px) {
+#desktopMenu {
+    margin-top: -30px;
+}
+.menuList li {
+    font-size: 1em;
+}
+#listenNow {
+    width: 210px;
+}
+.showItemContainer {
+    width: 80%;
 }
 }
 /*
