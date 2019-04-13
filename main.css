@@ -79,8 +79,7 @@ body {
     width: 100%;
     height: 100%;
 }
-/*------Desktop------*/
-@media screen and (min-width: 1150px) and (min-width: 1150px) {
+/*------------Desktop------------*/
 /*------Nav Bar------*/
 #navBar {
     width: 100vw;
@@ -194,7 +193,7 @@ body {
     margin-right: auto;
     padding-left: 5vw;
     position: absolute;
-    display: inline;
+    display: inline-block;
     margin-top: 23vh;
 }
 #albumHeader h2 {
@@ -248,9 +247,13 @@ body {
 /*------Shows------*/
 #showsSection {
     width: 100%;
-    height: 85%;
+    height: 100%;
     background-color: #616F7E;
     color: white;  
+}
+#showsSection a, a:visited {
+    text-decoration: none;
+    color: white;
 }
 #showsSection h2 {
     text-align: center;
@@ -263,38 +266,50 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+.showDate {
+    background-color: #817263;
+    width: 100px;
+    height: auto;
+}
+.showDateTitle {
+    text-align: center;
+    font-family: Oswald-Medium, sans-serif;
+    font-size: 20px;   
+}
+.showVenue {
+    text-align: left;
+    float: left;
+    margin-left: 125px;
+    margin-top: -32px;
+}
 .showVenueTitle {
     font-family: Oswald-Light, sans-serif;
-    font-size: 20px;
-    margin-top: -10px;
+    font-size: 20px;    
+}
+.ShowCity {
+    float: right;
+    margin-top: -25px;
+    padding-right: 15px;
 }
 .showCityTitle {
     font-family: Oswald-Light, sans-serif;
     font-size: 20px;
-    margin-top: -10px;
+    text-align: right; 
 }
 .showItemContainer {
     width: 50%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    border-bottom: 4px dotted white;
 }
-.showDate {
-    background-color: #817263;
-    width: 100px;
-    height: auto;
+.showItemContainer:hover {
+    background-color: #817263;    
 }
-.showVenue {
-    text-align: left;
-    float: left;
-    margin-left: 125px;
-    margin-top: -23px;
-}
-.showCity {
-   text-align: center;
-   padding-left: 500px;
-   margin-top: -23px; 
+#showItemContainerNB {
+    border-bottom: 0px;
 }
 /*------Blog------*/
 #blogSection {
@@ -338,6 +353,7 @@ body {
 /*------Social------*/
 #socialSection {
     background-color: #AE8862;
+    width: 100%;
 }
 #socialSection h2 {
     font-family: Oswald-SemiBold, sans-serif;
@@ -376,9 +392,12 @@ body {
 }
 .socialImageLink img:hover {
     opacity: 1;
-    width: calc(100%/3.5);
+    width: calc(100%/3.75);
     margin-bottom: -20px;
     transition: .5s;
+}
+#space {
+    height: 20px;
 }
 /*------Get Updates------*/
 #updatesSections {
@@ -408,52 +427,41 @@ body {
 #footerSection {
     background-color: #21222A;
 }
-}
-/*------Tablet------*/
+
+/*-----------Tablet------------*/
 @media screen and (max-width: 1150px) and (min-width: 880px) {
 /*------Nav Bar------*/
-#navBar {
-    width: 100%;
-    height: 65px;
-    background-color: #21222A;
-    position: fixed;
-    top: 0;
-    z-index: 99;
-}
-#navBarShell {
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-}
-#blurryLogo {
-    height: 55%;
-    margin-top: 15px;
-    fill: red;
-    transition: .05s;
-}
-#blurryLogo:hover {
-    fill: #AE8862;
-    transition: .05s;
-    cursor: pointer;
+.menuList li {   
+    font-size: 1em;
 }
 #desktopMenu {
-    width: 100%;
-    margin-top: -32px;
+    margin-top: -30px;
 }
-.menuList a {
-    text-decoration: none;
+/*------Album Section------*/
+#albumHeader {
+    padding-left: 7vw;
 }
-.menuList li:hover {
-    color: #AE8862;
+#albumImage img {
+    width: 30%;
 }
-.menuList li {
-    list-style: none;
-    display: inline;
-    color: white;
-    font-family: Oswald-Regular,sans-serif;
-    font-size: 1.15em;
-    text-transform: uppercase;
+/*------Show Section------*/
+#showsSection {
+    height: 80%;
 }
+.ShowCity{
+    margin-top: -30px;
+}
+.showItemContainer {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.socialImage {
+    width: calc(100%/3);
+    padding: 5px 10px 10px 5px;
+}
+}
+/*
+
 .liSecond {
     padding-left: 4vw;
     padding-right: 4vw;
@@ -471,7 +479,7 @@ body {
     width: 40%;
     float: left;
 }
-/*------Masthead------*/
+/*------Masthead------
 #masthead {
     width: 100%;
     height: 100vh;     
@@ -513,7 +521,7 @@ body {
     object-fit: cover;
     opacity: 0.5;
 }
-/*------New Album------*/
+/*------New Album------
 #albumSection {
     width: 100%;
     height: 85vh;
@@ -523,7 +531,7 @@ body {
     margin-right: auto;
     padding-left: 5vw;
     position: absolute;
-    display: inline;
+    display: inline-block;
     margin-top: 23vh;
 }
 #albumHeader h2 {
@@ -574,7 +582,7 @@ body {
     cursor: pointer;
     background-color: #21222A;
 }
-/*------Shows------*/
+/*------Shows------
 #showsSection {
     width: 100%;
     height: 85%;
@@ -622,10 +630,9 @@ body {
 }
 .showCity {
    text-align: center;
-   padding-left: 500px;
    margin-top: -23px; 
 }
-/*------Blog------*/
+/*------Blog------
 #blogSection {
     width: 100%;
     height: auto;
@@ -664,7 +671,7 @@ body {
     font-family: Oswald-Regular, sans-serif;
     font-size: 1.45em;
 }
-/*------Social------*/
+/*------Social------
 #socialSection {
     background-color: #AE8862;
 }
@@ -709,7 +716,7 @@ body {
     margin-bottom: -20px;
     transition: .5s;
 }
-/*------Get Updates------*/
+/*------Get Updates------
 #updatesSections {
     height: auto;
     width: 100%;
@@ -733,11 +740,11 @@ body {
     cursor: pointer;
     background-color: #21222A;
 }
-/*------Footer------*/
+/*------Footer------
 #footerSection {
     background-color: #21222A;
 }
-/*------Social------*/
+/*------Social------
 #socialContentContainer {
     width: 70%;
     margin-left: auto;
@@ -755,9 +762,9 @@ body {
     width: calc(100%/3);
     }
   }
-/*------Mobile------*/
+/*------Mobile------
 @media screen and (max-width:880px){
-/*------Nav Bar------*/
+/*------Nav Bar------
 #navBar {
     width: 100vw;
     height: 8vh;
@@ -810,7 +817,7 @@ body {
     width: 40%;
     float: left;
 }
-/*------Masthead------*/
+/*------Masthead------
 #masthead {
     width: 100%;
     height: 100vh;     
@@ -853,7 +860,7 @@ body {
     object-fit: cover;
     opacity: 0.5;
 }
-/*------New Album------*/
+/*------New Album------
 #albumSection {
     width: 100%;
     height: 85vh;
@@ -902,7 +909,7 @@ body {
     cursor: pointer;
     background-color: #21222A;
 }
-/*------Shows------*/
+/*------Shows------
 #showsSection {
     width: 100%;
     height: 85%;
@@ -950,10 +957,9 @@ body {
 }
 .showCity {
    text-align: center;
-   padding-left: 500px;
    margin-top: -23px; 
 }
-/*------Blog------*/
+/*------Blog------
 #blogSection {
     width: 100%;
     height: auto;
@@ -992,7 +998,7 @@ body {
     font-family: Oswald-Regular, sans-serif;
     font-size: 1.45em;
 }
-/*------Social------*/
+/*------Social------
 #socialSection {
     background-color: #AE8862;
 }
@@ -1037,7 +1043,7 @@ body {
     margin-bottom: -20px;
     transition: .5s;
 }
-/*------Get Updates------*/
+/*------Get Updates------
 #updatesSections {
     height: auto;
     width: 100%;
@@ -1061,8 +1067,9 @@ body {
     cursor: pointer;
     background-color: #21222A;
 }
-/*------Footer------*/
+/*------Footer------
 #footerSection {
     background-color: #21222A;
 }
 }
+*/
