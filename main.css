@@ -68,6 +68,7 @@
 }
 body {
     background-color: white;
+    overflow-x: hidden;
 }
 ::selection {
     background: #606E7D;
