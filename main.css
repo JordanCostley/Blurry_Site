@@ -506,7 +506,7 @@ body {
 @media screen and (max-width: 880px) {
 /*------Album------*/
 #albumSection {
-    height: 65vh;
+    height: 75vh;
 }
 #albumHeader {
     margin-top: 13vh;
@@ -592,7 +592,7 @@ body {
     text-decoration: none;
 }
 #albumSection {
-    height: 100%;
+    height: 95vh;
     max-height: 55%;
 }
 #albumHeader {
@@ -672,6 +672,19 @@ body {
 }
 .showItemContainer {
     width: 90%;
+}
+#blogSection h4 {
+    font-size: 7vw;
+}
+#blogPhoto {
+    width: 80vw;
+}
+#blogTextP p {
+    font-size: 1em;
+}
+#updatesButton {
+    padding-top: 7vw;
+    padding-bottom: 7vw;
 }
 #footerSection p {
     width: 90%;
