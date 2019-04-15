@@ -527,6 +527,15 @@ body {
 .menuList {
     display: none;
 }
+#masthead img {
+    height: auto;
+    width: 100vw;
+    object-fit: cover;
+    opacity: 0.5;
+}
+#masthead {
+    height: auto;
+}
 #mobileMenuLinks {
     display: flex;
 }
@@ -544,12 +553,13 @@ body {
     position: absolute;
     height: 92vh;
     width: 100vw;
-    right:0;
+    right:0px;
     top: 8vh;
     background-color: #21222A;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    transform: translateX(100%);
 }
 .menuListM li {
     font-size: 1em;
@@ -560,5 +570,29 @@ body {
 }
 .menuListM a {
     text-decoration: none;
+}
+#albumHeader {
+    display: inline;
+    position: relative;
+    padding-top: 3vh;
+}
+#albumHeader h5 {
+    font-size: 2vw;
+}
+#listenNow {
+    width: 125;
+    height: 40px;
+    font-size: 15px;
+    margin-top: 40vh;
+    marging-left: auto;
+    margin-right: auto;
+    float: none;
+}
+#albumImage img {
+    width: 35%;
+    transition: .5s;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
 }
 }
