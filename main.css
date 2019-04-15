@@ -572,7 +572,7 @@ body {
 .menuListM {
     position: absolute;
     height: 92vh;
-    width: 100vw;
+    width: 60vw;
     right:0px;
     top: 8vh;
     background-color: #21222A;
