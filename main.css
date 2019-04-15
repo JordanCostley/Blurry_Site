@@ -198,6 +198,9 @@ body {
     object-fit: cover;
     opacity: 0.5;
 }
+#colorText {
+    color: #AE8862
+}
 /*------New Album------*/
 #albumSection {
     width: 100%;
