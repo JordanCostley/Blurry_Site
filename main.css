@@ -196,10 +196,17 @@ body {
     height: 100vh;
     width: 100%;
     object-fit: cover;
-    opacity: 0.5;
+    opacity: 0.35;
 }
 #colorText {
-    color: #AE8862
+    color: #AE8862;
+    font-family: Oswald-MediumItalic, sans-serif;
+    font-size: 3.5vw;
+    padding-top: 1.5vw;
+    text-decoration: none;
+}
+#colorText:hover {
+    color: #616F7E;
 }
 /*------New Album------*/
 #albumSection {
