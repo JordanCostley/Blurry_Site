@@ -480,7 +480,7 @@ body {
 }
 /*------Show Section------*/
 #showsSection {
-    height: 90%;
+    height: 100%;
 }
 .ShowCity{
     margin-top: -30px;
@@ -660,5 +660,14 @@ body {
 }
 .showCity {
     display: none;
+}
+.showVenue {
+    float: none;
+    text-align: center;
+}
+#footerSection p {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 }
