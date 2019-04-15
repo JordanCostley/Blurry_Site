@@ -663,7 +663,12 @@ body {
 }
 .showVenue {
     float: none;
-    text-align: center;
+}
+.showVenueTitle {
+    text-align: right;
+}
+.showItemContainer {
+    width: 90%;
 }
 #footerSection p {
     width: 90%;
