@@ -190,7 +190,7 @@ body {
     font-size: 3.5vw;
     text-align: left;
     margin-left: 10px;
-    padding-top: 1.5vw;
+    padding-top: 2vw;
 }
 #masthead img {
     height: 100vh;
@@ -202,7 +202,6 @@ body {
     color: #AE8862;
     font-family: Oswald-MediumItalic, sans-serif;
     font-size: 3.5vw;
-    padding-top: 1.5vw;
     text-decoration: none;
 }
 #colorText:hover {
