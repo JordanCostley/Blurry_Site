@@ -584,7 +584,7 @@ body {
     height: 40px;
     font-size: 15px;
     margin-top: 40vh;
-    marging-left: auto;
+    margin-left: auto;
     margin-right: auto;
     float: none;
 }
@@ -593,6 +593,5 @@ body {
     transition: .5s;
     margin-left: auto;
     margin-right: auto;
-    position: absolute;
 }
 }

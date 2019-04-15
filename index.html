@@ -46,7 +46,7 @@
                         <div id="line3"></div>                        
                     </div>
                     <div id="mobileMenuLinks">
-                        <ul class="menuListM">
+                        <ul class="menuListM" id="menuListMobile">
                             <a href="#"><li>Music</li></a>
                             <a href="#"><li>Shows</li></a>
                             <a href="#"><li>Merch</li></a>
@@ -198,5 +198,17 @@
     </body>
     <script type="text/javascript">
     document.getElementById('mastheadImage').ondragstart = function() { return false; };
+    var menuClick = document.getElementById("mobileMenu");
+    menuClick.style.cursor = 'pointer';
+    menuClick.onclick = mobileMenu;
+
+    function mobileMenu() {
+        var menuButton = document.getElementById("menuListMobile");
+        if (menuButton.style.transform === "translateX(0%)") {
+            menuButton.style.transform = "translateX(100%)";
+        } else {
+            menuButton.style.transform = "translateX(0%)";
+        }
+        }
     </script>
 </html>
