@@ -165,6 +165,14 @@ body {
 .toggle #line3 {
     transform: rotate(45deg) translate(-5px,-6px);
 }
+#merchHeader {
+    padding-top: 10vh;
+    padding-bottom: 4vh;
+}
+#merchHeader h2 {
+    font-family: Oswald-SemiBold, sans-serif;
+    font-size: 3vw;
+}
 /*------Footer------*/
 #footerSection {
     background-color: #21222A;
@@ -187,13 +195,21 @@ body {
     padding-bottom: 30px;
 }
 @media screen and (max-width: 1150px) and (min-width: 880px) {
-    /*------Nav Bar------*/
-    .menuList li {   
-        font-size: 1em;
-    }
-    #desktopMenu {
-        margin-top: -30px;
-    }
+/*------Nav Bar------*/
+.menuList li {   
+    font-size: 1em;
+}
+#desktopMenu {
+    margin-top: -30px;
+}
+#merchHeader h2 {
+    font-size: 5vw;
+}
+}
+@media screen and (max-width: 880xp) {
+#merchHeader h2 {
+    font-size: 5vw;
+}
 }
 @media screen and (max-width: 725px) {
 #desktopMenu {
@@ -207,6 +223,9 @@ body {
 }
 .showItemContainer {
     width: 80%;
+}
+#merchHeader h2 {
+    font-size: 6vw;
 }
 }
 @media screen and (max-width: 600px) {
@@ -250,11 +269,17 @@ body {
      text-decoration: none;
      padding: 20px;
 }
+#merchHeader h2 {
+    font-size: 7vw;
+}
 #footerSocials a svg {
     margin: 0 10px;
 }
 }
 @media screen and (max-width: 485px) {
+#merchHeader h2 {
+    font-size: 8.5vw;
+}
 #footerSection p {
     width: 90%;
     margin-left: auto;
