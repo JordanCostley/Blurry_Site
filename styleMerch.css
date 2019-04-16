@@ -244,9 +244,11 @@ body {
     color: white;
     font-family: Oswald-Regular,sans-serif;
     text-transform: uppercase;
+    padding: 20px;
 }
 .menuListM a {
      text-decoration: none;
+     padding: 20px;
 }
 #footerSocials a svg {
     margin: 0 10px;

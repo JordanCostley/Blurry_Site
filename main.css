@@ -624,9 +624,11 @@ body {
     color: white;
     font-family: Oswald-Regular,sans-serif;
     text-transform: uppercase;
+    padding: 20px;
 }
 .menuListM a {
-    text-decoration: none;
+     text-decoration: none;
+     padding: 20px;
 }
 #albumSection {
     height: 95vh;
