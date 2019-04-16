@@ -25,11 +25,6 @@
     src: url('Oswald-SemiBold.ttf');
 }
 @font-face {
-    font-family: Oswald-ExtraLight;
-    font-weight: 100;
-    src: url('Oswald-ExtraLight.ttf');
-}
-@font-face {
     font-family: Oswald-Bold;
     font-weight: 100;
     src: url('Oswald-Bold.ttf');
