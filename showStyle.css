@@ -314,6 +314,12 @@ body {
      text-decoration: none;
      padding: 20px;
 }
+.showItemShell {
+    width: 90%;    
+}
+.showVenueItem, .showVenueCity, .showDateItem {
+    text-align: center;
+}
 #showHeader h2 {
     font-size: 7vw;
 }
