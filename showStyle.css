@@ -65,6 +65,7 @@
     text-align: center;
     font-family: Montserrat-Regular, sans-serif;
     transition: .5s;
+    color: rgb(17, 17, 20);
 }
 body {
     background-color: white;
@@ -184,32 +185,38 @@ body {
 .showItem {
     width: 100%;
     background-color: #606E7D;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 .showItem:hover {
     background-color: #AE8862;
 }
 .showItemShell {
-    width: 65%;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    align-items: center;
     justify-content: space-around;
 }
-.showDateItem {
-    text-align: left;
-}
-.showInfo {
-    flex-grow: 3;
-}
 .showInfoItem {
-    text-align: right;
+    background-color: white; 
+    padding: 10px 20px 10px 20px; 
+    font-family: Oswald-Medium, sans-serif;
+}
+.showInfoItemLink {
+    text-decoration: none;
+    color: #21222A;
 }
 .showVenue {
     padding-left: 50px;
+    padding-right: 50px;
+    flex-grow: 3;
 }
-.showVenueItem, .showVenueCity {
+.showVenueItem, .showVenueCity, .showDateItem {
     text-align: left;
+    font-family: Oswald-Medium, sans-serif;
+    font-size: 1.25em;
+    color: white;
 }
 /*------Footer------*/
 #footerSection {
@@ -233,12 +240,20 @@ body {
     padding-bottom: 30px;
 }
 @media screen and (max-width: 1150px) and (min-width: 880px) {
-    /*------Nav Bar------*/
-    .menuList li {   
-        font-size: 1em;
-    }
-    #desktopMenu {
-        margin-top: -30px;
+/*------Nav Bar------*/
+.menuList li {   
+    font-size: 1em;
+}
+#desktopMenu {
+    margin-top: -30px;
+}
+#showHeader h2 {
+    font-size: 5vw;
+}
+}
+@media screen and (max-width: 880px) {
+    #showHeader h2 {
+        font-size: 5vw;
     }
 }
 @media screen and (max-width: 725px) {
@@ -251,8 +266,11 @@ body {
 #listenNow {
     width: 210px;
 }
-.showItemContainer {
-    width: 80%;
+.showItemShell {
+    width: 70%;
+}
+#showHeader h2 {
+    font-size: 6vw;
 }
 }
 @media screen and (max-width: 600px) {
@@ -294,11 +312,23 @@ body {
 .menuListM a {
      text-decoration: none;
 }
+#showHeader h2 {
+    font-size: 7vw;
+}
 #footerSocials a svg {
     margin: 0 10px;
 }
 }
 @media screen and (max-width: 485px) {
+#showHeader h2 {
+    font-size: 8.5vw;
+}
+.showItemShell {
+    width: 90%;    
+}
+.showVenueItem, .showVenueCity, .showDateItem {
+    text-align: center;
+}
 #footerSection p {
     width: 90%;
     margin-left: auto;
