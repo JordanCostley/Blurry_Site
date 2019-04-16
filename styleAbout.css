@@ -155,52 +155,6 @@ body {
     background-color: white;
     margin: 5px;
 }
-/*------Show Section------*/
-#showDatesSection {
-    width: 100%;
-    background-color: white;
-}
-#showHeader {
-    padding-top: 10vh;
-    padding-bottom: 4vh;
-}
-#showHeader h2 {
-    font-family: Oswald-SemiBold, sans-serif;
-    font-size: 3vw;
-}
-#showListShell {
-    width: 100%;
-}
-.showItem {
-    width: 100%;
-    background-color: #606E7D;
-}
-.showItem:hover {
-    background-color: #AE8862;
-}
-.showItemShell {
-    width: 65%;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-.showDateItem {
-    text-align: left;
-}
-.showInfo {
-    flex-grow: 3;
-}
-.showInfoItem {
-    text-align: right;
-}
-.showVenue {
-    padding-left: 50px;
-}
-.showVenueItem, .showVenueCity {
-    text-align: left;
-}
 /*------Footer------*/
 #footerSection {
     background-color: #21222A;
