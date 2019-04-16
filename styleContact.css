@@ -188,7 +188,7 @@ body {
 }
 @media screen and (max-width: 1150px) and (min-width: 880px) {
     /*------Nav Bar------*/
-    .menuList li {   
+    .menuList li {
         font-size: 1em;
     }
     #desktopMenu {
@@ -260,4 +260,12 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+}
+
+/*contact form styling*/
+#contactForm{
+  margin: 50%;
+  width: 30%;
+  height: 500px;
+  background-color: brown;
 }
