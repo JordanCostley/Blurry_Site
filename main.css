@@ -514,8 +514,20 @@ body {
     padding: 5px 10px 10px 5px;
 }
 }
+@media screen and (max-width: 950px) {
+#blurryLogo:hover {
+    fill: white;
+}
+.menuList li:hover {
+    color: white;
+}
+}
 @media screen and (max-width: 950px) and (min-width: 880px) {
 #albumImage img {
+    width: 33%;
+}
+#albumImage a img:hover {
+    opacity: .75;
     width: 33%;
 }
 .showItemContainer {
@@ -546,6 +558,12 @@ body {
 .socialImage {
     width: calc(100%/3);
     padding: 5px 10px 10px 5px;
+}
+.socialImageLink img:hover {
+    width: calc(100%/3);
+    padding: 5px 10px 10px 5px;
+    opacity: .75;
+    margin-bottom: 0;
 }
 }
 @media screen and (max-width: 725px) {
@@ -634,10 +652,12 @@ body {
 }
 #albumImage img {
     width: 35%;
-    transition: .5s;
     margin-left: auto;
     margin-right: auto;
     padding-top: 0;
+}
+#albumImage a img:hover {
+    width: 33%;
 }
 #showsSection h2 {
     padding-top: 5vh;
@@ -661,6 +681,10 @@ body {
 .socialImage {
     width: calc(100%/2.25);
     padding: 2.5px 5px 5px 2.5px;
+}
+.socialImageLink img:hover {
+    width: calc(100%/2.25);
+    opacity: .75;
 }
 #footerSocials a svg {
     margin: 0 10px;
