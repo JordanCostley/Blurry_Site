@@ -200,11 +200,14 @@
 
     function mobileMenu() {
         var menuButton = document.getElementById("menuListMobile");
+        //Move in Menu
         if (menuButton.style.transform === "translateX(0%)") {
             menuButton.style.transform = "translateX(100%)";
         } else {
             menuButton.style.transform = "translateX(0%)";
         }
+        //Burger animation
+        menuClick.classList.toggle('toggle');
         }
     </script>
 </html>
