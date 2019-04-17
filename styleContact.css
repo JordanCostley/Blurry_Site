@@ -169,8 +169,7 @@ body {
 #footerSection {
     background-color: #21222A;
     width: 100%;
-    bottom: 0;
-    position: absolute;
+
 }
 #footerSocials {
     width: 85%;
@@ -266,16 +265,19 @@ body {
 
 /*contact form styling*/
 #contactForm{
-  margin-left: 65%;
-  margin-right: 35%;
-  margin-top: 80px;
-  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  margin-bottom: 200px;
   width: 400px;
   height: 400px;
-  background-color: #AE8862;
+  background-color: #21222A;
   text-align: center;
   padding-top: 20px;
 
+}
+#contactForm h1{
+  color: white;
 }
 input{
   border: 1px solid black;
@@ -286,23 +288,36 @@ textarea{
   background-color: white;
 }
 button{
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: #21222A;
   width: 100px;
   height: 50px;
   border-radius: 5px;
 }
 button:hover{
   background-color: #AE8862;
-  transition: .05s;
+  cursor: pointer;
+  color: white;
 }
 /*contact left styling*/
 #contactLeft{
-  float: left;
+
+
   margin-top: 200px;
-  margin-left: 100px;
-  background-color: #AE8862;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+
 }
-#contactLeft h1 h2 h3{
-  text-align: left;
+#contactLeft h1{
+  text-align: center;
+  font-size: 22px;
+}
+#contactLeft h2{
+  text-align: center;
+  font-size: 18px;
+}
+#contactLeft h3{
+  text-align: center;
+  font-size: 16px;
 }
