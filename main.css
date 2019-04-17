@@ -605,10 +605,6 @@ body {
     display: inline-block;
     right: 10vw;
 }
-#blank {
-    height: 60px;
-    background-color: #21222A;
-}
 .menuListM {
     position: absolute;
     height: 92vh;
