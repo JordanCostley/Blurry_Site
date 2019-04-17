@@ -596,7 +596,7 @@ body {
     display: flex;
 }
 #menuBottom {
-    padding-bottom: 35px;
+    margin-bottom: 35px;
 }
 #navBar {
     height: 8vh;
@@ -619,7 +619,6 @@ body {
     flex-direction: column;
     justify-content: space-around;
     transform: translateX(100%);
-    overflow-y: hidden;
 }
 .menuListM li {
     font-size: 1em;
