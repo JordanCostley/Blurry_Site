@@ -199,6 +199,7 @@
     <script type="text/javascript">
     document.getElementById('mastheadImage').ondragstart = function() { return false; };
     var menuClick = document.getElementById("mobileMenu");
+    var body = document.getElementById("shell");
     menuClick.style.cursor = 'pointer';
     menuClick.onclick = mobileMenu;
 
@@ -212,6 +213,7 @@
         }
         //Burger animation
         menuClick.classList.toggle('toggle');
+        body.classList.toggle('hidden');
         }
     </script>
 </html>

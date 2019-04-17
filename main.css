@@ -150,6 +150,9 @@ body {
     background-color: white;
     margin: 5px;
 }
+.hidden {
+    overflow: hidden;
+}
 .toggle #line1 {
     transform: rotate(-45deg) translate(-5px,6px);
 }
@@ -595,9 +598,6 @@ body {
 #mobileMenuLinks {
     display: flex;
 }
-#menuBottom {
-    opacity: 0;
-}
 #navBar {
     height: 8vh;
     width: 100%;
@@ -619,7 +619,6 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     transform: translateX(100%);
-    overflow: hidden;
 }
 .menuListM li {
     font-size: 1em;
