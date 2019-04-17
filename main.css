@@ -596,7 +596,7 @@ body {
     display: flex;
 }
 #menuBottom {
-    margin-bottom: 35px;
+    opacity: 0;
 }
 #navBar {
     height: 8vh;
