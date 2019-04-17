@@ -595,6 +595,9 @@ body {
 #mobileMenuLinks {
     display: flex;
 }
+#menuBottom {
+    padding-bottom: 5vh;
+}
 #navBar {
     height: 8vh;
     width: 100%;
