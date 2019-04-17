@@ -614,7 +614,6 @@ body {
     background-color: #21222A;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     transform: translateX(100%);
 }
 .menuListM li {
@@ -624,6 +623,7 @@ body {
     font-family: Oswald-Regular,sans-serif;
     text-transform: uppercase;
     padding: 20px;
+    margin-bottom: 20px;
 }
 .menuListM a {
      text-decoration: none;
