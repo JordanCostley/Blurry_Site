@@ -290,6 +290,9 @@ body {
     display: inline-block;
     right: 10vw;
 }
+#menuBottom {
+    padding-bottom: 35px;
+}
 .menuListM {
     position: absolute;
     height: 92vh;

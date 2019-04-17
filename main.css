@@ -596,7 +596,7 @@ body {
     display: flex;
 }
 #menuBottom {
-    padding-bottom: 5vh;
+    padding-bottom: 35px;
 }
 #navBar {
     height: 8vh;
