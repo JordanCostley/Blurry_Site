@@ -169,6 +169,8 @@ body {
 #footerSection {
     background-color: #21222A;
     width: 100%;
+    bottom: 0;
+    position: absolute;
 }
 #footerSocials {
     width: 85%;
@@ -264,8 +266,8 @@ body {
 
 /*contact form styling*/
 #contactForm{
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 65%;
+  margin-right: 35%;
   margin-top: 80px;
   margin-bottom: 40px;
   width: 400px;
@@ -293,4 +295,14 @@ button{
 button:hover{
   background-color: #AE8862;
   transition: .05s;
+}
+/*contact left styling*/
+#contactLeft{
+  float: left;
+  margin-top: 200px;
+  margin-left: 100px;
+  background-color: #AE8862;
+}
+#contactLeft h1 h2 h3{
+  text-align: left;
 }
