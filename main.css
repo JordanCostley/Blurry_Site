@@ -608,6 +608,10 @@ body {
     display: inline-block;
     right: 10vw;
 }
+#blank {
+    height: 60px;
+    background-color: #21222A;
+}
 .menuListM {
     position: absolute;
     height: 92vh;
@@ -619,6 +623,7 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     transform: translateX(100%);
+    overflow-y: scroll;
 }
 .menuListM li {
     font-size: 1em;
