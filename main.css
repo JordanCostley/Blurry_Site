@@ -617,10 +617,9 @@ body {
     background-color: #21222A;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: flex-start;
     transform: translateX(100%);
     overflow: hidden;
-    position: fixed;
 }
 .menuListM li {
     font-size: 1em;
