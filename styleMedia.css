@@ -165,16 +165,26 @@ body {
 .toggle #line3 {
     transform: rotate(45deg) translate(-5px,-6px);
 }
-#containgerImage {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+#mediaSectionShell {
+    width: 100%;
+    padding: 10vh 0;
 }
-.imageItem img {
-    margin: 5px;
+#mediaImagesSection {
+    width: 63%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 0;   
+    -webkit-column-count: 3;
+    -webkit-column-gap: 5px;
+    -moz-column-count: 3;
+    -moz-column-gap: 5px;
+    column-count: 3;
+    column-gap: 5px;
 }
-.imageItem img:hover {
-    transform: scale(1.1);
+#mediaImagesSection img {
+    width: 100%;
+    height: auto;
+    padding-top: 5px;
 }
 /*------Footer------*/
 #footerSection {
@@ -197,14 +207,31 @@ body {
     font-size: .75em;
     padding-bottom: 30px;
 }
-@media screen and (max-width: 1150px) and (min-width: 880px) {
-    /*------Nav Bar------*/
-    .menuList li {   
-        font-size: 1em;
-    }
-    #desktopMenu {
-        margin-top: -30px;
-    }
+@media screen and (min-width: 880px) {
+#mediaImagesSection img:hover {
+    transform: scale(1.075);
+}
+}
+@media screen and (max-width: 1150px ) and (min-width: 880px) {
+/*------Nav Bar------*/
+.menuList li {   
+    font-size: 1em;
+}
+#desktopMenu {
+    margin-top: -30px;
+}
+#mediaImagesSection {
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    column-count: 3;
+}
+}
+@media screen and (max-width: 880px) {
+#mediaImagesSection {
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
+}  
 }
 @media screen and (max-width: 725px) {
 #desktopMenu {
@@ -218,6 +245,11 @@ body {
 }
 .showItemContainer {
     width: 80%;
+}
+#mediaImagesSection {
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
 }
 }
 @media screen and (max-width: 600px) {
@@ -264,6 +296,11 @@ body {
      text-decoration: none;
      padding: 20px;
 }
+#mediaImagesSection {
+    -moz-column-count: 1;
+    -webkit-column-count: 1;
+    column-count: 1;
+}
 #footerSocials a svg {
     margin: 0 10px;
 }
@@ -273,5 +310,11 @@ body {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+}
+#mediaImagesSection {
+    padding: 0;
+}
+.mediaItem {
+    margin: 0;
 }
 }
