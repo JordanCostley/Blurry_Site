@@ -176,6 +176,31 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+#musicSectionShell {
+    width: 100%;
+}
+#musicRecent {
+    width: 70%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#albumImage {
+    padding: 20px;
+}
+#albumImage img {
+    height: 60vh;
+}
+#albumPlayer {
+    padding: 20px;
+    width: 40%;
+}
+#albumPlayer iframe {
+    width: 100%;
+    height: 60vh;
+}
 /*------Footer------*/
 #footerSection {
     background-color: #21222A;
