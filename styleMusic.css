@@ -201,6 +201,44 @@ body {
     width: 100%;
     height: 60vh;
 }
+#updatesSections {
+    height: auto;
+    width: 100%;
+}
+#updatesSections h3 {
+    font-family: Oswald-SemiBold, sans-serif;
+    font-size: 2vw;
+    text-transform: uppercase;
+    padding-top: 1vw; 
+}
+#updatesButton {
+    padding-top: 1vw;
+    padding-bottom: 2vw;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#getUpdatesButton {
+    width: 175;
+    height: 60px;
+    background-color: #616F7E;
+    color: white;
+    font-family: Oswald-Regular, sans-serif;
+    font-size: 30px;
+    margin-left: 10px;
+}
+#getupdatesButton:hover {
+    cursor: pointer;
+    background-color: #AE8862;
+}
+#emailInput {
+    border: solid 1.5px #21222A;
+    text-align: left;
+    padding: 5px;
+    height: 60px;
+}
 /*------Footer------*/
 #footerSection {
     background-color: #21222A;
@@ -223,13 +261,21 @@ body {
     padding-bottom: 30px;
 }
 @media screen and (max-width: 1150px) and (min-width: 880px) {
-    /*------Nav Bar------*/
-    .menuList li {   
-        font-size: 1em;
-    }
-    #desktopMenu {
-        margin-top: -30px;
-    }
+/*------Nav Bar------*/
+.menuList li {   
+    font-size: 1em;
+}
+#desktopMenu {
+    margin-top: -30px;
+}
+#updatesSections h3 {
+    font-size: 3vw
+}
+}
+@media screen and (max-width: 880px) {
+#updatesSections h3 {
+    font-size: 3vw
+}
 }
 @media screen and (max-width: 725px) {
 #desktopMenu {
@@ -244,7 +290,19 @@ body {
 .showItemContainer {
     width: 80%;
 }
+#updatesSections h3 {
+    font-size: 4vw
 }
+#getUpdatesButton {
+    width: 150;
+}
+}
+@media screen and (max-width:564px) {
+    #getUpdatesButton {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    }
 @media screen and (max-width: 600px) {
 .menuList {
     display: none;
@@ -288,6 +346,9 @@ body {
 .menuListM a {
      text-decoration: none;
      padding: 20px;
+}
+#updatesSections h3 {
+    font-size: 6vw
 }
 #footerSocials a svg {
     margin: 0 10px;
