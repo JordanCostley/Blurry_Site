@@ -207,15 +207,26 @@ body {
     align-content: space-around;
     flex-wrap: wrap;
 }
+#merchContent a {
+    text-decoration: none;
+}
+#merchContent a:visited {
+    color: black;
+}
 .merchItem {
     flex-basis: 20%;
     padding: 10px 20px 10px 20px;
     margin: 10px 20px 10px 20px;
+    border: solid 1px transparent;
 }
 .merchItem img {
     margin-left: auto;
     margin-right: auto;
     padding-top: 10px;
+}
+.merchItem:hover {
+    border: solid 1px;
+    cursor: pointer;
 }
 .merchItemDesc {
     padding-top: 20px;
