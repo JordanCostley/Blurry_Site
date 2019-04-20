@@ -271,10 +271,16 @@ body {
 #updatesSections h3 {
     font-size: 3vw
 }
+#albumPlayer {
+    width: 55%;
+}
 }
 @media screen and (max-width: 880px) {
 #updatesSections h3 {
     font-size: 3vw
+}
+#albumPlayer {
+    width: 75%;
 }
 }
 @media screen and (max-width: 725px) {
@@ -290,6 +296,9 @@ body {
 .showItemContainer {
     width: 80%;
 }
+#albumPlayer {
+    width: 85%;
+}
 #updatesSections h3 {
     font-size: 4vw
 }
@@ -298,11 +307,11 @@ body {
 }
 }
 @media screen and (max-width:564px) {
-    #getUpdatesButton {
-        margin-left: 0px;
-        margin-top: 10px;
-    }
-    }
+#getUpdatesButton {
+    margin-left: 0px;
+    margin-top: 10px;
+}
+}
 @media screen and (max-width: 600px) {
 .menuList {
     display: none;
@@ -347,6 +356,9 @@ body {
      text-decoration: none;
      padding: 20px;
 }
+#albumPlayer {
+    width: 100%;
+}
 #updatesSections h3 {
     font-size: 6vw
 }
@@ -355,6 +367,9 @@ body {
 }
 }
 @media screen and (max-width: 485px) {
+#albumPlayer {
+    width: 100%;
+}
 #footerSection p {
     width: 90%;
     margin-left: auto;
