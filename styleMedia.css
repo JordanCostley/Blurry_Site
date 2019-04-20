@@ -165,6 +165,17 @@ body {
 .toggle #line3 {
     transform: rotate(45deg) translate(-5px,-6px);
 }
+#containgerImage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.imageItem img {
+    margin: 5px;
+}
+.imageItem img:hover {
+    transform: scale(1.1);
+}
 /*------Footer------*/
 #footerSection {
     background-color: #21222A;

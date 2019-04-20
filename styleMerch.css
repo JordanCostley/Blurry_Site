@@ -165,20 +165,41 @@ body {
 .toggle #line3 {
     transform: rotate(45deg) translate(-5px,-6px);
 }
+#merchShell{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
 #merchHeader {
     padding-top: 10vh;
     padding-bottom: 4vh;
+    width: 100%;
 }
 #merchHeader h2 {
     font-family: Oswald-SemiBold, sans-serif;
     font-size: 3vw;
 }
 #merchContentShell {
-    width: 100%;
+    width: auto;
     height: auto;
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+#merchNavList {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+.merchNavItem {
+    flex-basis: 20%;
 }
 #merchContent {
-    width: 70%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -196,6 +217,16 @@ body {
 .merchItem img {
     margin-left: auto;
     margin-right: auto;
+    padding-top: 10px;
+}
+.merchItemDesc {
+    padding-top: 20px;
+}
+.merchItemDesc h3 {
+    font-family: Oswald-Semibold, sans-serif;
+    font-size: 1.25em;
+}
+.merchItemDesc h4 {
     padding-top: 10px;
 }
 /*------Footer------*/
