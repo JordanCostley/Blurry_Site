@@ -346,11 +346,11 @@ body {
 }
 }
 @media screen and (max-width:564px) {
-    #getUpdatesButton {
-         margin-left: 0px;
-        margin-top: 10px;
-    }
-    }
+#getUpdatesButton {
+    margin-left: 0px;
+    margin-top: 10px;
+}
+}
 @media screen and (max-width: 600px) {
 .menuList {
     display: none;
