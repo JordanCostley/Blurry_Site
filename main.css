@@ -361,7 +361,6 @@ body {
     margin-right: auto;
 }
 #blogText h4 {
-    text-align: center;
     font-family: Oswald-SemiBold, sans-serif;
     font-size: 2vw;
     text-transform: uppercase;
@@ -427,13 +426,20 @@ body {
     height: auto;
     width: 100%;
 }
+#updatesSections h3 {
+    font-family: Oswald-SemiBold, sans-serif;
+    font-size: 2vw;
+    text-transform: uppercase;
+    padding-top: 1vw; 
+}
 #updatesButton {
-    width: 500px;
-    margin-left: auto;
-    margin-right: auto;
     padding-top: 1vw;
-    padding-bottom: 1vw;
+    padding-bottom: 2vw;
+    width: 70%;
+    margin: auto;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 #getUpdatesButton {
     width: 175;
@@ -442,15 +448,17 @@ body {
     color: white;
     font-family: Oswald-Regular, sans-serif;
     font-size: 30px;
-    margin-left: 50px;
+    margin-left: 10px;
 }
 #getupdatesButton:hover {
     cursor: pointer;
     background-color: #AE8862;
 }
 #emailInput {
-    border: solid 1px;
-    display: flex;
+    border: solid 1.5px #21222A;
+    text-align: left;
+    padding: 5px;
+    height: 60px;
 }
 /*------Footer------*/
 #footerSection {
@@ -511,6 +519,12 @@ body {
     padding-bottom: 30px;
     padding-top: 30px;
 }
+#blogText h4 {
+    font-size: 3vw;
+}
+#updatesSections h3 {
+    font-size: 3vw
+}
 /*------Social Section------*/
 .socialImage {
     width: calc(100%/3);
@@ -523,6 +537,12 @@ body {
 }
 .menuList li:hover {
     color: white;
+}
+#blogText h4 {
+    font-size: 3vw;
+}
+#updatesSections h3 {
+    font-size: 3vw
 }
 }
 @media screen and (max-width: 950px) and (min-width: 880px) {
@@ -559,6 +579,12 @@ body {
     width: calc(100%/3);
     padding: 5px 10px 10px 5px;
 }
+#blogText h4 {
+    font-size: 4vw;
+}
+#updatesSections h3 {
+    font-size: 4vw
+}
 }
 @media screen and (max-width: 725px) {
 #desktopMenu {
@@ -572,6 +598,21 @@ body {
 }
 .showItemContainer {
     width: 80%;
+}
+#blogText h4 {
+    font-size: 4vw;
+}
+#updatesSections h3 {
+    font-size: 4vw
+}
+#getUpdatesButton {
+    width: 150;
+}
+}
+@media screen and (max-width:564px) {
+#getUpdatesButton {
+    margin-left: 0px;
+    margin-top: 10px;
 }
 }
 @media screen and (max-width: 600px) {
@@ -674,6 +715,15 @@ body {
 .socialImage {
     width: calc(100%/2.25);
     padding: 2.5px 5px 5px 2.5px;
+}
+#blogText {
+    width: 90%;
+}
+#blogText h4 {
+    font-size: 6vw;
+}
+#updatesSections h3 {
+    font-size: 6vw
 }
 #footerSocials a svg {
     margin: 0 10px;
