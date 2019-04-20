@@ -246,6 +246,7 @@ body {
 @media screen and (min-width: 880px) {
 #mediaImagesSection img:hover {
     transform: scale(1.075);
+    transform: rotate(30deg)
 }
 }
 @media screen and (max-width: 1150px ) and (min-width: 880px) {
