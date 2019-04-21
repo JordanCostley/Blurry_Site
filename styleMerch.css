@@ -209,6 +209,7 @@ body {
 }
 #merchContent a {
     text-decoration: none;
+    color: black;
 }
 #merchContent a:visited {
     color: black;
