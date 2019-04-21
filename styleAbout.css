@@ -292,5 +292,11 @@ font-size: 18px;
 }
 
 #aboutPhoto{
-  
+
+}
+
+.acompanyingImages{
+  display: flex;
+  width: 50%;
+
 }
