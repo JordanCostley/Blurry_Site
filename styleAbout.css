@@ -188,7 +188,7 @@ body {
 }
 @media screen and (max-width: 1150px) and (min-width: 880px) {
     /*------Nav Bar------*/
-    .menuList li {   
+    .menuList li {
         font-size: 1em;
     }
     #desktopMenu {
@@ -263,4 +263,34 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+}
+
+#aboutSection{
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+#aboutSection h1{
+text-align: left;
+font-size: 22px;
+}
+
+#aboutSection h2{
+text-align: left;
+font-size: 18px;
+}
+
+#aboutSection h3{
+  text-align: left;
+  font-size: 16px;
+}
+
+#aboutSection p{
+  text-align: left;
+}
+
+#aboutPhoto{
+  
 }
