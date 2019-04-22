@@ -381,6 +381,9 @@ body {
      text-decoration: none;
      padding: 20px;
 }
+#albumImage img {
+    height: 40vh;
+}
 #albumPlayer {
     width: 100%;
 }
