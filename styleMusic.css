@@ -175,9 +175,14 @@ body {
     width: 70%;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 5vh;
 }
 #musicSectionShell {
     width: 100%;
+}
+#musicSectionShell h3 {
+    font-family: Oswald-SemiBold, sans-serif;
+    font-size: 3vw;
 }
 #musicRecent {
     width: 70%;
@@ -186,6 +191,17 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+}
+#musicPastShell {
+    background-color: #616F7E;
+    padding: 2.5vh 0 5vh 0;
+}
+#musicPastShell h5 {
+    font-family: Oswald-SemiBold, sans-serif;
+    font-size: 3vw;
+    text-transform: uppercase;
+    color: white;
+    padding-bottom: 10px;
 }
 #albumImage {
     padding: 20px;
@@ -274,6 +290,9 @@ body {
 #albumPlayer {
     width: 55%;
 }
+#musicSectionShell h3, #musicPastShell h5 {
+    font-size: 5vw;
+}
 }
 @media screen and (max-width: 880px) {
 #updatesSections h3 {
@@ -281,6 +300,9 @@ body {
 }
 #albumPlayer {
     width: 75%;
+}
+#musicSectionShell h3, #musicPastShell h5 {
+    font-size: 5vw;
 }
 }
 @media screen and (max-width: 725px) {
@@ -298,6 +320,9 @@ body {
 }
 #albumPlayer {
     width: 85%;
+}
+#musicSectionShell h3, #musicPastShell h5 {
+    font-size: 6vw;
 }
 #updatesSections h3 {
     font-size: 4vw
@@ -359,6 +384,9 @@ body {
 #albumPlayer {
     width: 100%;
 }
+#musicSectionShell h3, #musicPastShell h5 {
+    font-size: 7vw;
+}
 #updatesSections h3 {
     font-size: 6vw
 }
@@ -369,6 +397,9 @@ body {
 @media screen and (max-width: 485px) {
 #albumPlayer {
     width: 100%;
+}
+#musicSectionShell h3, #musicPastShell h5 {
+    font-size: 8.5vw;
 }
 #footerSection p {
     width: 90%;
