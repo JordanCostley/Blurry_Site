@@ -188,12 +188,20 @@ body {
     padding-bottom: 30px;
 }
 @media screen and (max-width: 1150px) and (min-width: 880px) {
-    /*------Nav Bar------*/
-    .menuList li {
-        font-size: 1em;
-    }
-    #desktopMenu {
-        margin-top: -30px;
+/*------Nav Bar------*/
+.menuList li {
+    font-size: 1em;
+}
+#desktopMenu {
+    margin-top: -30px;
+}
+#aboutPhoto h2 {
+    font-size: 5vw;
+}
+}
+@media screen and (max-width: 880px) {
+    #aboutPhoto h2 {
+        font-size: 5vw;
     }
 }
 @media screen and (max-width: 725px) {
@@ -208,6 +216,9 @@ body {
 }
 .showItemContainer {
     width: 80%;
+}
+#aboutPhoto h2 {
+    font-size: 6vw;
 }
 }
 @media screen and (max-width: 600px) {
@@ -257,9 +268,15 @@ body {
 #footerSocials a svg {
     margin: 0 10px;
 }
+#aboutPhoto h2 {
+    font-size: 7vw;
+}
 }
 @media screen and (max-width: 485px) {
-#footerSection p {
+    #aboutPhoto h2 {
+        font-size: 8.5vw;
+    }
+    #footerSection p {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -309,4 +326,9 @@ font-size: 18px;
 }
 #aboutPhoto img {
     width: 100%;
+}
+#aboutPhoto h2 {
+    font-family: Oswald-SemiBold, sans-serif;
+    font-size: 3vw;
+    padding-bottom: 5vh;
 }
