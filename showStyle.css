@@ -358,7 +358,7 @@ body {
     background-color: #21222A;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    align-content: flex-start;
     transform: translateX(100%);
 }
 .menuListM li {
@@ -371,7 +371,7 @@ body {
 }
 .menuListM a {
      text-decoration: none;
-     padding: 10px;
+     padding: 20px;
 }
 .showItemShell {
     width: 90%;    
