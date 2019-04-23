@@ -284,7 +284,7 @@ body {
 }
 
 #aboutSection{
-    width: 70%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
@@ -293,7 +293,8 @@ body {
 }
 #aboutSection h1{
 text-align: left;
-font-size: 22px;
+font-size: 30px;
+font-family: Oswald-Bold, sans-serif;
 }
 #aboutSection h2{
 text-align: left;
@@ -301,10 +302,13 @@ font-size: 18px;
 }
 #aboutSection h3{
   text-align: left;
-  font-size: 16px;
+  font-size: 19.25px;
+  font-family: Oswald-Medium, sans-serif;
+  font-weight: 100;
 }
 #aboutSection p{
   text-align: left;
+  line-height: 33px;
 }
 #aboutText {
     padding: 20px;
@@ -312,20 +316,21 @@ font-size: 18px;
     flex-grow: 2;
 }
 .acompanyingImages {
-    padding: 20px;
+    margin: 20px;
     flex-basis: 45%;
     flex-grow: 2;
 }
 .acompanyingImages img {
     width: 80%;
+    padding: 20px;
 }
 #aboutPhoto {
     padding-top: 10vh;
-    width: 65%;
+    width: 60%;
     margin: 0 auto 0 auto;
 }
 #aboutPhoto img {
-    width: 100%;
+    width: 70%;
 }
 #aboutPhoto h2 {
     font-family: Oswald-SemiBold, sans-serif;
