@@ -309,6 +309,7 @@ font-size: 18px;
 #aboutSection p{
   text-align: left;
   line-height: 33px;
+
 }
 #aboutText {
     padding: 20px;
@@ -319,6 +320,7 @@ font-size: 18px;
     margin: 20px;
     flex-basis: 45%;
     flex-grow: 2;
+    margin-top: 250px;
 }
 .acompanyingImages img {
     width: 80%;
