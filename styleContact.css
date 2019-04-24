@@ -257,6 +257,7 @@ h4 {
     padding: 5px 0 5px 5px;
     margin: 10px 0 10px 0;
     text-align: left;
+    transition: 0s;
   }
   #fn {
       flex-basis: 48%
