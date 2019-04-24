@@ -231,6 +231,94 @@ h4 {
     padding: 5px;
     height: 60px;
 }
+/*contact form styling*/
+#contactForm{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 5vh;
+    width: 40%;
+    height: auto;
+    padding-top: 20px;
+  }
+  #contactForm form {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+  }
+  #contactForm input, #contactForm textarea{
+    border: 1px solid black;
+    background-color: white;
+    padding: 5px 0 5px 5px;
+    margin: 10px 0 10px 0;
+    text-align: left;
+  }
+  #fn {
+      flex-basis: 48%
+  }
+  #ln {
+      flex-basis: 48%;
+  }
+  #em {
+      flex-basis: 100%;
+  }
+  #sj {
+      flex-basis: 100%;
+  }
+  textarea{
+    border: 1px solid black;
+    background-color: white; 
+    flex-basis: 100%;
+  }
+  #submitButton{
+    background-color: #21222A;
+    color: white;
+    font-family: Oswald-SemiBold, sans-serif;
+    width: 100px;
+    height: 50px;
+  }
+  #submitButton:hover{
+    background-color: #AE8862;
+    cursor: pointer;
+    color: white;
+  }
+  /*contact left styling*/
+  #contactLeft{
+    margin-top: 85px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+  .contactLink {
+      text-decoration: none;
+      color: black;
+      font-family: Oswald-ExtraLight, sans-serif;
+  }
+  .contactLink:hover {
+      color: #AE8862;
+  }
+  #management {
+      font-family: Oswald-MediumItalic, sans-serif;
+      padding-bottom: 10px;
+  }
+  #contactLeft h2{
+    text-align: left;
+    font-size: 22px;
+    font-family: Oswald-Bold, sans-serif;
+  }
+  #contactLeft h3{
+    text-align: left;
+    font-size: 16px;
+  }
+  #booking {
+      padding-bottom: 5px;
+  }
+  #managementTitle {
+      padding-bottom: 20px;
+  }
+  #managementEmails {
+      padding-bottom: 30px;
+  }
 @media screen and (max-width: 1150px) and (min-width: 880px) {
 /*------Nav Bar------*/
 .menuList li {
@@ -272,6 +360,9 @@ h4 {
 }
 #updatesSections h3 {
     font-size: 4vw
+}
+#contactForm {
+    width: 63%;
 }
 }
 @media screen and (max-width: 600px) {
@@ -337,95 +428,9 @@ h4 {
 h4 {
     font-size: 8.5vw;
 }
+#contactForm {
+    width: 80%;
 }
-
-/*contact form styling*/
-#contactForm{
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 30px;
-  margin-bottom: 5vh;
-  width: 40%;
-  height: auto;
-  padding-top: 20px;
-}
-#contactForm form {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-#contactForm input, #contactForm textarea{
-  border: 1px solid black;
-  background-color: white;
-  padding: 5px 0 5px 5px;
-  margin: 10px 0 10px 0;
-  text-align: left;
-}
-#fn {
-    flex-basis: 48%
-}
-#ln {
-    flex-basis: 48%;
-}
-#em {
-    flex-basis: 100%;
-}
-#sj {
-    flex-basis: 100%;
-}
-textarea{
-  border: 1px solid black;
-  background-color: white; 
-  flex-basis: 100%;
-}
-#submitButton{
-  background-color: #21222A;
-  color: white;
-  font-family: Oswald-SemiBold, sans-serif;
-  width: 100px;
-  height: 50px;
-}
-#submitButton:hover{
-  background-color: #AE8862;
-  cursor: pointer;
-  color: white;
-}
-/*contact left styling*/
-#contactLeft{
-  margin-top: 85px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
-}
-.contactLink {
-    text-decoration: none;
-    color: black;
-    font-family: Oswald-ExtraLight, sans-serif;
-}
-.contactLink:hover {
-    color: #AE8862;
-}
-#management {
-    font-family: Oswald-MediumItalic, sans-serif;
-    padding-bottom: 10px;
-}
-#contactLeft h2{
-  text-align: left;
-  font-size: 22px;
-  font-family: Oswald-Bold, sans-serif;
-}
-#contactLeft h3{
-  text-align: left;
-  font-size: 16px;
-}
-#booking {
-    padding-bottom: 5px;
-}
-#managementTitle {
-    padding-bottom: 20px;
-}
-#managementEmails {
-    padding-bottom: 30px;
 }
 @media screen and (max-width: 1057px) {
     #fn {
