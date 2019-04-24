@@ -186,6 +186,11 @@ h4 {
 #footerSocials a svg {
     height: 20px;
     margin: 0 20px;
+    fill: white;
+}
+#footerSocials a svg:hover {
+    fill: #AE8862;
+    transition: .01s;
 }
 #footerSection p {
     color: white;
