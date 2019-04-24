@@ -192,6 +192,45 @@ h4 {
     font-size: .75em;
     padding-bottom: 30px;
 }
+/*------Get Updates------*/
+#updatesSections {
+    height: auto;
+    width: 100%;
+}
+#updatesSections h3 {
+    font-family: Oswald-SemiBold, sans-serif;
+    font-size: 2vw;
+    text-transform: uppercase;
+    padding-top: 1vw; 
+}
+#updatesButton {
+    padding-top: 1vw;
+    padding-bottom: 2vw;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#getUpdatesButton {
+    width: 175;
+    height: 60px;
+    background-color: #616F7E;
+    color: white;
+    font-family: Oswald-Regular, sans-serif;
+    font-size: 30px;
+    margin-left: 10px;
+}
+#getupdatesButton:hover {
+    cursor: pointer;
+    background-color: #AE8862;
+}
+#emailInput {
+    border: solid 1.5px #21222A;
+    text-align: left;
+    padding: 5px;
+    height: 60px;
+}
 @media screen and (max-width: 1150px) and (min-width: 880px) {
 /*------Nav Bar------*/
 .menuList li {
@@ -202,11 +241,17 @@ h4 {
 }
 h4 {
     font-size: 5vw;
+}
+#updatesSections h3 {
+    font-size: 3vw
 }	
 }
 @media screen and (max-width: 880px) {
 h4 {
     font-size: 5vw;
+}
+#updatesSections h3 {
+    font-size: 4vw
 }
 }
 @media screen and (max-width: 725px) {
@@ -224,6 +269,9 @@ h4 {
 }
 h4 {
     font-size: 6vw;
+}
+#updatesSections h3 {
+    font-size: 4vw
 }
 }
 @media screen and (max-width: 600px) {
@@ -276,6 +324,9 @@ h4 {
 h4 {
     font-size: 7vw;
 }
+#updatesSections h3 {
+    font-size: 6vw
+}
 }
 @media screen and (max-width: 485px) {
 #footerSection p {
@@ -293,9 +344,9 @@ h4 {
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
-  margin-bottom: 200px;
+  margin-bottom: 5vh;
   width: 40%;
-  height: 400px;
+  height: auto;
   padding-top: 20px;
 }
 #contactForm form {
@@ -303,7 +354,7 @@ h4 {
     flex-wrap: wrap;
     justify-content: space-between;
 }
-input, textarea{
+#contactForm input, #contactForm textarea{
   border: 1px solid black;
   background-color: white;
   padding: 5px 0 5px 5px;
@@ -327,14 +378,14 @@ textarea{
   background-color: white; 
   flex-basis: 100%;
 }
-button{
+#submitButton{
   background-color: #21222A;
-  color: #AE8862;
+  color: white;
+  font-family: Oswald-SemiBold, sans-serif;
   width: 100px;
   height: 50px;
-  border-radius: 5px;
 }
-button:hover{
+#submitButton:hover{
   background-color: #AE8862;
   cursor: pointer;
   color: white;
