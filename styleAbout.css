@@ -340,6 +340,14 @@ font-size: 18px;
 #aboutSection {
     width: 90%;
 }
+.acompanyingImages {
+    margin:0px;
+    margin-top: 5%;
+}
+.acompanyingImages img {
+    width: 90%;
+    padding: 20px;
+}
 }
 @media screen and (max-width: 485px) {
     #aboutPhoto h2 {
