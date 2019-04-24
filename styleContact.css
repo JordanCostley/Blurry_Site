@@ -294,26 +294,38 @@ h4 {
   margin-right: auto;
   margin-top: 30px;
   margin-bottom: 200px;
-  width: 50%;
+  width: 40%;
   height: 400px;
-  text-align: left;
   padding-top: 20px;
-
 }
-#contactForm h1{
-  text-align: left;
-  font-size: 18px;
+#contactForm form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
-input{
+input, textarea{
   border: 1px solid black;
   background-color: white;
-  width: 55%;
-
+  padding: 5px 0 5px 5px;
+  margin: 10px 0 10px 0;
+  text-align: left;
+}
+#fn {
+    flex-basis: 48%
+}
+#ln {
+    flex-basis: 48%;
+}
+#em {
+    flex-basis: 100%;
+}
+#sj {
+    flex-basis: 100%;
 }
 textarea{
   border: 1px solid black;
   background-color: white; 
-  width: 100%;
+  flex-basis: 100%;
 }
 button{
   background-color: #21222A;
@@ -333,17 +345,42 @@ button:hover{
   margin-left: auto;
   margin-right: auto;
   width: 40%;
-
 }
-#contactLeft h1{
-  text-align: left;
-  font-size: 22px;
+.contactLink {
+    text-decoration: none;
+    color: black;
+    font-family: Oswald-ExtraLight, sans-serif;
+}
+.contactLink:hover {
+    color: #AE8862;
+}
+#management {
+    font-family: Oswald-MediumItalic, sans-serif;
+    padding-bottom: 10px;
 }
 #contactLeft h2{
   text-align: left;
-  font-size: 18px;
+  font-size: 22px;
+  font-family: Oswald-Bold, sans-serif;
 }
 #contactLeft h3{
   text-align: left;
   font-size: 16px;
+}
+#booking {
+    padding-bottom: 5px;
+}
+#managementTitle {
+    padding-bottom: 20px;
+}
+#managementEmails {
+    padding-bottom: 30px;
+}
+@media screen and (max-width: 1057px) {
+    #fn {
+        flex-basis: 100%
+    }
+    #ln {
+        flex-basis: 100%;
+    }
 }
