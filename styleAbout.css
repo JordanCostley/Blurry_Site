@@ -165,7 +165,62 @@ body {
 .toggle #line3 {
     transform: rotate(45deg) translate(-5px,-6px);
 }
+#aboutSection{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#aboutSection h1{
+text-align: left;
+font-size: 30px;
+font-family: Oswald-Bold, sans-serif;
+}
+#aboutSection h2{
+text-align: left;
+font-size: 18px;
+}
+#aboutSection h3{
+  text-align: left;
+  font-size: 19.25px;
+  font-family: Oswald-Medium, sans-serif;
+  font-weight: 100;
+}
+#aboutSection p{
+  text-align: left;
+  line-height: 33px;
 
+}
+#aboutText {
+    padding: 20px;
+    flex-basis: 45%;
+    flex-grow: 2;
+}
+.acompanyingImages {
+    margin: 20px;
+    flex-basis: 45%;
+    flex-grow: 2;
+    margin-top: 23%;
+}
+.acompanyingImages img {
+    width: 80%;
+    padding: 20px;
+}
+#aboutPhoto {
+    padding-top: 10vh;
+    width: 60%;
+    margin: 0 auto 0 auto;
+}
+#aboutPhoto img {
+    width: 70%;
+}
+#aboutPhoto h2 {
+    font-family: Oswald-SemiBold, sans-serif;
+    font-size: 3vw;
+    padding-bottom: 5vh;
+}
 /*------Footer------*/
 #footerSection {
     background-color: #21222A;
@@ -271,6 +326,9 @@ body {
 #aboutPhoto h2 {
     font-size: 7vw;
 }
+#aboutSection {
+    width: 90%;
+}
 }
 @media screen and (max-width: 485px) {
     #aboutPhoto h2 {
@@ -281,61 +339,4 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
-}
-
-#aboutSection{
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px;
-    display: flex;
-    flex-wrap: wrap;
-}
-#aboutSection h1{
-text-align: left;
-font-size: 30px;
-font-family: Oswald-Bold, sans-serif;
-}
-#aboutSection h2{
-text-align: left;
-font-size: 18px;
-}
-#aboutSection h3{
-  text-align: left;
-  font-size: 19.25px;
-  font-family: Oswald-Medium, sans-serif;
-  font-weight: 100;
-}
-#aboutSection p{
-  text-align: left;
-  line-height: 33px;
-
-}
-#aboutText {
-    padding: 20px;
-    flex-basis: 45%;
-    flex-grow: 2;
-}
-.acompanyingImages {
-    margin: 20px;
-    flex-basis: 45%;
-    flex-grow: 2;
-    margin-top: 23%;
-}
-.acompanyingImages img {
-    width: 80%;
-    padding: 20px;
-}
-#aboutPhoto {
-    padding-top: 10vh;
-    width: 60%;
-    margin: 0 auto 0 auto;
-}
-#aboutPhoto img {
-    width: 70%;
-}
-#aboutPhoto h2 {
-    font-family: Oswald-SemiBold, sans-serif;
-    font-size: 3vw;
-    padding-bottom: 5vh;
 }
