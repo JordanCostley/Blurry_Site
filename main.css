@@ -256,7 +256,7 @@ body {
 #listenNow {
     width: 250;
     height: 60px;
-    background-color: #817263;
+    background-color: #AE8862;
     color: white;
     font-family: Oswald-Regular, sans-serif;
     position: relative;
@@ -296,7 +296,7 @@ body {
     margin-right: auto;
 }
 .showDate {
-    background-color: #817263;
+    background-color: #AE8862;
     width: 100px;
     height: auto;
 }
@@ -335,7 +335,7 @@ body {
     border-bottom: 4px dotted white;
 }
 .showItemContainer:hover {
-    background-color: #817263;    
+    background-color: #AE8862;    
 }
 #showItemContainerNB {
     border-bottom: 0px;
